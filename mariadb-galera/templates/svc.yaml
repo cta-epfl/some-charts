@@ -21,9 +21,9 @@ spec:
   clusterIP: {{ .Values.service.clusterIP }}
   {{- end }}
   ports:
-    - name: mysql
+    - name: mysql1
       port: {{ .Values.service.port }}
-      targetPort: mysql1
+      targetPort: mysql
       {{- if and .Values.service.nodePort (or (eq .Values.service.type "NodePort") (eq .Values.service.type "LoadBalancer")) }}
       nodePort: {{ .Values.service.nodePort }}
       {{- else if eq .Values.service.type "ClusterIP" }}
