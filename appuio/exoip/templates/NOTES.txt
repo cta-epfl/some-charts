@@ -1,3 +1,0 @@
-exoip deployed.
-
-Try http://{{ .Values.eip }}/ to access
