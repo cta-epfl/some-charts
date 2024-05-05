@@ -5,7 +5,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 10.5.12
-    created: "2024-05-05T17:56:57.703464784+02:00"
+    created: "2024-05-05T18:22:05.125461603+02:00"
     dependencies:
     - name: common
       repository: https://raw.githubusercontent.com/bitnami/charts/defb094c658024e4aa8245622dab202874880cbc/bitnami/
@@ -14,7 +14,41 @@ entries:
       version: 1.x.x
     description: MariaDB Galera is a multi-master database cluster solution for synchronous
       replication and high availability.
-    digest: e2b8abb9adf956608ed96b391027b963644f2faf4039c8ab13f2c898001c1c45
+    digest: 609a201f2c575c9e7488b1714fd1f25ddf5b1e01c16e79571aeda0a00db073df
+    home: https://github.com/appuio/charts/tree/master/appuio/mariadb-galera
+    icon: https://raw.githubusercontent.com/appuio/charts/master/appuio/mariadb-galera/icon.png
+    keywords:
+    - mariadb
+    - mysql
+    - database
+    - sql
+    - prometheus
+    - galera
+    maintainers:
+    - email: info@appuio.ch
+      name: APPUiO Team
+    name: mariadb-galera
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mariadb-galera
+    - https://github.com/prometheus/mysqld_exporter
+    - https://mariadb.org
+    urls:
+    - https://cta-epfl.github.io/some-charts/mariadb-galera-1.2.6.tgz
+    version: 1.2.6
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 10.5.12
+    created: "2024-05-05T18:22:05.123543543+02:00"
+    dependencies:
+    - name: common
+      repository: https://raw.githubusercontent.com/bitnami/charts/defb094c658024e4aa8245622dab202874880cbc/bitnami/
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: MariaDB Galera is a multi-master database cluster solution for synchronous
+      replication and high availability.
+    digest: d6926132390d06acc5fe900fab42d7a27c621a0cd7a05785132d32175ccc5c48
     home: https://github.com/appuio/charts/tree/master/appuio/mariadb-galera
     icon: https://raw.githubusercontent.com/appuio/charts/master/appuio/mariadb-galera/icon.png
     keywords:
@@ -39,7 +73,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 10.5.12
-    created: "2024-05-05T17:56:57.701778202+02:00"
+    created: "2024-05-05T18:22:05.121760576+02:00"
     dependencies:
     - name: common
       repository: https://raw.githubusercontent.com/bitnami/charts/defb094c658024e4aa8245622dab202874880cbc/bitnami/
@@ -69,4 +103,4 @@ entries:
     urls:
     - https://cta-epfl.github.io/some-charts/mariadb-galera-1.2.4.tgz
     version: 1.2.4
-generated: "2024-05-05T17:56:57.699764513+02:00"
+generated: "2024-05-05T18:22:05.11977471+02:00"
